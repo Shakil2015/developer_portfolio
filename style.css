@@ -58,3 +58,41 @@ body {
 }
 
 /* Header Section end */
+.dream-big {
+  display: flex;
+  margin-top: 10px;
+  width: 100%;
+}
+.dream-big-left {
+  width: 50%;
+}
+.dream-big-left img {
+  width: 85%;
+  object-fit: cover;
+}
+.dream-big-right {
+  width: 50%;
+  padding: 5px 200px 5px 5px;
+  background-image: url(/images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position-x: right;
+  background-position-y: center;
+}
+
+.dream-big-right h1 {
+  font-size: 40px;
+}
+.dream-big-right h3 {
+  font-size: 30px;
+}
+.dream-big-right a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-image: linear-gradient(orange, tomato);
+}
